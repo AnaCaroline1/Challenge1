@@ -1,0 +1,177 @@
+* {
+	font-family: 'Harmattan', sans-serif;
+	font-size: 30px;
+	line-height: 100%;}
+
+body {
+	display: inline-block;
+
+	position: relative;
+	background: #7aa5a3;}
+
+header {
+	margin: 15px 15px;
+	height: 40px;}
+.main {
+
+	display: flex;
+	width: 940px;
+	margin: auto 20px;
+
+	padding: 50px 0;
+
+	flex-wrap: nowrap;
+	
+	align-items: flex-start;
+	
+	justify-content: space-between;}
+
+.inputText {
+	width: 500px;
+	padding: 40px 0;
+
+	margin-left: 20px;
+
+	border: 30px;
+	border-radius: 20px;
+}
+.inputText:hover{
+	border: 5px solid #3c6a75;
+}
+.menssagem {
+
+	width: 500px;
+	padding: 40px 0;
+
+	margin-right: 20px;
+
+	border: 30px;
+	border-radius: 20px;
+	
+	background-image: url("imagens/garotoObservando.png");
+	background-repeat: no-repeat;
+	background-position: 100px;
+}
+.menssagem:hover {
+	border: 5px solid #1b7396;
+}
+
+.informacao {
+
+	display: inline-flex;
+	text-align: center;
+
+	vertical-align: top;}
+.exclamacao {
+
+	margin: 20px 0px 5px 30px;
+	width: 30px;
+	height: 30px;}
+.alert {
+	color:rgb(255, 255, 255);
+	font-family: monospace;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 20px 0px 0px 20px;}
+
+
+.botoes {
+
+	display: inline-flex;
+	width: 600px;
+	height: 200px;}
+
+.encriptar {
+
+	background-color: #82a3e480;
+	box-shadow: inset 300px 0 0 0 rgba(21, 96, 100, 0.753);
+	
+	margin-top: 30px;
+	font-family: monospace;
+	font-size: 29px;
+	font-weight: bold;
+	color: white;
+
+	margin: 30px 300px 0 30px;
+
+	width: 300px;
+	height: 80px;
+
+	padding-right: 20px;
+
+	border-radius: 20px;
+	
+	box-sizing: border-box;}
+
+.encriptar:hover {
+	background-color: #1b7396;
+	width: 300px;
+	height: 80px;
+	padding: auto 5px;
+}
+
+.desencriptar {
+
+	background-color: #3c6a75e0;
+
+	margin-top: 30px; 
+	font-family: monospace;
+	font-size: 29px;
+	font-weight: bold;
+	color: white;
+
+	margin: 30px 20px 0 150px;
+
+	width: 300px;
+	height: 80px;
+	
+	border-radius: 20px;
+	box-sizing: border-box;}
+.desencriptar:hover {
+	background-color: #3c6a75;
+	width: 305px;
+	height: 80px;
+	padding: auto 5px;
+}
+footer {
+	display: inline-flex;
+	flex-direction: column-reverse;
+	background-color: rgb(0, 0, 0);
+
+	border-radius: 15px;
+	margin: 10px 50px 0 50px;
+}
+
+#dev {
+	color: #7aa5a3;
+	font-family: monospace, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	margin: 40px 15px 40px 30px;}
+
+.navegacao li {
+	display: inline-flex;
+
+	flex-direction: column-reverse;
+
+	margin: 10px 230px 0 230px;}
+
+.navegacao a {
+	margin-top: 5px;
+	text-align: right;
+
+	text-decoration: none;
+	color: #7aa5a3;
+
+	font-family: Times, serif;
+	font-weight: bold;
+	font-size: large;
+	font-size: 20px;
+}
+.navegacao a:hover {
+	color: #fbfeff;
+
+}
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+
+		<title>Decodificador</title>
+
+	</head>
+
+	<body>
+			<header>
+				<img src= "imagens/logo.png" t="Logo Alura">
+			</header>
+
+			<main class="main">
+				<section>
+					<textarea class="inputText" cols="25" rows="8" placeholder=" digite aqui seu texto"></textarea>
+
+					<div class="informacao">
+						<img class="exclamacao" src="imagens/interrogação.png" alt="ponto de exclamação">
+						<h6 class="alert">digite apenas letras minúsculas sem acento</h6>					
+					</div>
+					
+					<div class="botoes">
+						<button class="encriptar" onclick="btEncriptar()">Criptografar</button>
+	
+						<button class="desencriptar" onclick="btDescriptar()">Descriptografar</button>
+					</div>
+
+				</section>
+
+				<section>
+				
+					<textarea class="menssagem" cols="25" rows="8"></textarea>
+
+				</section>
+
+			</main>
+
+			<footer>
+				<h3 id="dev">&#169; Desenvolvido por Ana Caroline</h3>
+
+				<div class="navegacao">
+
+					<li>
+						<a href="http://www.linkedin.com/in/ana-caroline-48z9/">Linkedin</a>
+					</li>
+
+					<li>
+						<a href="https://github.com/AnaCaroline1">Github</a> 	
+					</li>		
+				</div>
+			</footer>
+
+		<script src="script.js"></script>
+	</body>
+
+</html>
